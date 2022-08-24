@@ -7,7 +7,7 @@
    - - - - 
 * Skill Gained in this project
   * Learned to make website responsive for multiple screen using __Media Queries__
-  * Learn to used change direction of content in row or colum  and align item  using 
+  * Learned to used change direction of content in row or colum  and align item  using 
   __flex-direction__, __justifycontent__
   ,__align item__
   *  Leaned to  change the position using __realtive,absolute, etc__
