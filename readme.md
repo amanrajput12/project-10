@@ -12,7 +12,7 @@
   ,__align item__
   *  Leaned to  change the position using __realtive,absolute, etc__
    * Learned to target elements using __:nth- child ,:f to create button using irst-child, :last child__
-  * Learned__padding__  and __border radius__
+  * Learned to create button using __padding__  and __border radius__
   * Learned to rotate  the line in this project using __transform:rotate__ 
   * Learned to fix the background image using property __background-repeat , background-position , background-size, background-attachment__
    - - - -
