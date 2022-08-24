@@ -1,5 +1,5 @@
 # project-10 #
-[project-live](https://fswd-project11.netlify.app)
+[project-live](https://fswd-project10.netlify.app)
    - - - -
  # Technology used in this project #
   ![html](./image/html.svg) ![css](./image/css.svg) 
