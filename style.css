@@ -1,0 +1,177 @@
+
+body{
+    box-sizing: border-box;
+    margin:0 ; 
+    padding: 0;
+    background-image: url("./image/retro-living-room-interior-design.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+ 
+    font-family: "Poppins", sans-serif;
+    overflow: hidden;
+    color: white;
+
+}
+
+
+.nav{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   font-weight: 600;
+   font-size: large;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    list-style-type: none;
+}
+
+hr{
+    
+    border-top: 2px solid white ;
+    width: 60rem;
+}
+
+.hero-section{
+    display: flex ;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 80vh;
+    gap: 2rem;
+   
+
+}
+
+  .left-side h1{
+ max-width: 90vh;
+   font-size: 4em;
+   padding: 1rem;
+
+}
+
+ .left-side button {
+    background-color: transparent;
+     padding: 1rem;
+     border: 0.1rem solid #ffffff;
+     color: inherit;
+     border-radius: 1rem;
+     cursor: pointer; 
+     font-weight: 800;     
+}
+.left-side{
+    padding: 20px;
+}
+
+ .right-side {
+    margin-left: auto;   
+    display: flex;
+    height: 40vh;
+    gap: 20vh   ;
+    flex-direction: row;
+    justify-items: flex-start;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+  .square-box {
+    background-color: rgba(255,255,255,.4);
+    position: relative;
+}
+
+.right-side :first-child {
+   
+   align-self:flex-end;
+   
+   padding: 0.2rem;
+    
+    
+}
+
+.right-side :first-child .circle-line {
+    position: absolute;
+    left: 15rem;
+    bottom: 1.25rem;
+     height: 4.375rem;
+    width: 0.125rem;
+    background-color: #FFFFFF;
+     
+    
+    transform: rotate(-90deg);
+}
+.right-side :last-child .circle-line {
+    position: absolute;
+      left: 3.675rem;    
+     height: 4.375rem;
+    width: 0.125rem;
+    background-color: #FFFFFF;
+     
+    
+   
+}
+
+
+ .circle {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: #FFFFFF;
+    top: 60px;
+    left: -10px;
+ 
+    
+}
+
+@media only screen and (max-width: 900px) {
+    hr{ display: none;}
+    .list{
+        display: none;
+    }
+
+    .hero-section {
+    display: flex;
+    flex-direction: column;
+    
+    }
+    .left-side{
+        height: 50%;
+        align-self: center;
+        justify-items: center;
+    }
+    .left-side :first-child{
+        font-size: 4vh;
+    }
+    
+    .square-box {
+        height: 20vh;
+        
+    }
+    .right-side :first-child .circle-line {
+        position: absolute;
+       left: 5rem;
+       bottom: 9rem;
+        height: 4.375rem;
+        width: 0.125em;;
+        background-color: #FFFFFF;
+        transform: rotate(-180deg);
+       }
+       
+    .right-side :last-child .circle-line {
+        position: absolute;
+          left: 3.75rem;
+          height: 4.37rem;
+         width: 0.125rem;;
+         background-color: #FFFFFF;
+     }
+             
+         
+        
+       
+
+}
